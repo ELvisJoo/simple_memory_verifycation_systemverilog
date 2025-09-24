@@ -1,1 +1,0 @@
-# simple_memory_verifycation_systemverilog
