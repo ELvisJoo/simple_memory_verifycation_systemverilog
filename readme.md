@@ -3,9 +3,9 @@ V2 is comply version with UVM
 
 ## 一、框架图如下所示
 
-txgen --------------→ input_mon ----------------------------------------→ scb
+txgen ----------------------→ input_mon ------------→ scb
 
-----------------------→ dut -------------------→ output_mon -------------- ↑
+-------------→ dut ---------→ output_mon ------------- ↑
 
 
 ## 二、说明
@@ -18,4 +18,5 @@ txgen生成transaction把激励分别发送送给input_mon和dut，
 
 
 [Welcome To SystemVerilog Central](https://www.asic-world.com/systemverilog/index.html)
+
 
