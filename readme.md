@@ -10,7 +10,8 @@ txgen ----------------------→ input_mon ------------→ scb
 
 ## 二、说明
 
-该V1案例在Questa下跑通，V2案例的cover group部分待完善。  
+该V1案例在Questa和VCS+Verdi下都可以跑通，  
+V2案例的cover group部分待完善。  
 txgen生成transaction把激励分别发送送给input_mon和dut，  
 然后在scb中做数据比对和coverage采集。  
 
@@ -399,3 +400,4 @@ always #1 clk = ~clk;
 
 endmodule
 ```
+
