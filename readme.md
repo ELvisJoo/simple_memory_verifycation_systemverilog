@@ -313,7 +313,7 @@ class mem_scoreboard;
 endclass
 
 ```
-## test.sv ##
+## memory_top.sv (test) ##
 ```systemverilog
 
 `include "mem_ports.sv"
@@ -348,7 +348,7 @@ end
  
 endprogram
 ```
-## testbench(top.sv) ##
+## testbench(memory_tb.sv) ##
 ```systemverilog
 `timescale 1ns/1ns
 
@@ -402,5 +402,6 @@ always #1 clk = ~clk;
 
 endmodule
 ```
+
 
 
