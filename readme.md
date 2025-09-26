@@ -2,7 +2,7 @@ V1 is simple version without UVM （stable）
 V2 is comply version with UVM
 
 ## 一、框架图如下所示
----plaintex
+---bash
 
 txgen ----------------------→ input_mon ------------→ scb  
 
@@ -402,6 +402,7 @@ always #1 clk = ~clk;
 
 endmodule
 ```
+
 
 
 
