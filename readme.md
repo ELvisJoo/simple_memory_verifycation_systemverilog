@@ -1,6 +1,12 @@
-V1 is simple version without UVM （stable）  
-V2 is comply version with UVM
-
+V1 is basic version without UVM
+V2 is comply version with testcase：
+```verilog
+1. basic_rw_test // 基础读写测试：写入数据后立即读取验证
+2. boundary_test // 边界地址测试：测试地址范围的边界值
+3. consecutive_rw_test // 连续读写测试：连续写入后连续读取
+4. random_rw_test // 随机读写测试：随机地址的混合读写操作
+5. overwrite_test //覆盖测试：验证同一地址多次写入和读取
+```
 ## 一、框架图如下所示  
 
 ```verilog   
@@ -401,6 +407,7 @@ always #1 clk = ~clk;
 
 endmodule
 ```
+
 
 
 
