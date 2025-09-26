@@ -1,14 +1,13 @@
 V1 is simple version without UVM （stable）  
 V2 is comply version with UVM
 
-## 一、框架图如下所示
----bash
+## 一、框架图如下所示  
 
+```verilog   
 txgen ----------------------→ input_mon ------------→ scb  
 
 -------------→ dut ---------→ output_mon ------------- ↑   
-
----
+```
 
 ## 二、说明
 
@@ -402,6 +401,7 @@ always #1 clk = ~clk;
 
 endmodule
 ```
+
 
 
 
